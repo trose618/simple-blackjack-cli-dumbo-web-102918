@@ -42,7 +42,8 @@ def hit?(num)
     invalid_command
     prompt_user
     elsif input == "h"
-     num = num + deal_card
+     num += deal_card
+   end
      
 end
 
