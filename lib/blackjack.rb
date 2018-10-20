@@ -47,7 +47,6 @@ def hit?(num)
    else 
      num
    end
-     
 end
 
 def invalid_command
@@ -61,5 +60,8 @@ end
 
 def runner
   # code runner here
+  welcome
+  total = initial_round
+  hit?(total)
 end
     
